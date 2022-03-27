@@ -1,0 +1,105 @@
+body {
+    background: url("../images.automan.png") center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+input::-webkit-input-placeholder {
+            color: #989898;
+        }
+input::-moz-placeholder {
+            /* Mozilla Firefox 19+ */
+            color: #989898;
+        }
+input:-moz-placeholder {
+            /* Mozilla Firefox 4 to 18 */
+            color: #989898;
+        }
+input:-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            color: #989898;
+        }
+/* 顶部的盒子 */
+.head {
+	width: 1000px;
+	height: 100px;
+	margin: 0 auto;
+	border-bottom: 2px dashed #ccc;
+	position: fixed;
+	left: 50%;
+	margin-left: -500px;
+	top: 0;
+}
+.head h1 {
+	text-align: center;
+	line-height: 55px;
+	color: #13d6d6;
+}
+/* 登录的盒子 */
+#login-box {
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 15%;
+    text-align: center;
+    background: rgba(0,0,0,0.7);
+    padding: 20px 50px;
+	border-radius: 68px;
+}
+#login-box h1 {
+    color: #0ecce0;
+}
+#login-box .form .item {
+    margin-top: 15px;
+}
+#login-box .form .item input {
+    width: 180px;
+	height: 18px;
+	line-height: 18px;
+    border: 0;
+    border-bottom: 3px solid #0cff00;
+    /* padding: 5px 10px; */
+	text-align: center;
+    background: #fff;
+	outline: none; /* 取消蓝色边框 */
+	color: #989898;
+	border-radius: 50%;
+}
+#login-box .form .item input[placeholder] {
+	font-size: 12px;
+}
+#login-box .form .item i {
+    font-size: 18px;
+    color: black;
+}
+#login-box button {
+    border: 0;
+    margin-top: 15px;
+    width: 125px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    border-radius: 15px;
+}
+#login-box a {
+	display: inline-block;
+	text-decoration: none;
+	margin-top: 15px;
+	width: 125px;
+	height: 30px;
+	font-size: 20px;
+	font-weight: 700;
+	color: white;
+	background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+	border-radius: 15px;
+}
+.footer {
+    color: #0CFF00;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+

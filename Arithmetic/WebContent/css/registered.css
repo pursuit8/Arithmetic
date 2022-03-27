@@ -1,0 +1,59 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: #F6F6F6;
+}
+h3 {
+	width: 100px;
+	margin: 100px auto 30px;
+}
+form {
+	/* display: inline-block; */
+	/* width: 300px; */
+	margin: 0 auto;
+	color: #989898;
+}
+div {
+	width: 260px;
+	margin: 0 auto;
+}
+tr {
+	margin-top: 10px;
+	height: 50px;
+}
+.kuang input {
+	width: 180px;
+	height: 18px;
+	line-height: 18px;
+	border: 0;
+	border-bottom: 3px solid #0cff00;
+	/* padding: 5px 10px; */
+	text-align: center;
+	background: #fff;
+	outline: none; /* 取消蓝色边框 */
+	color: #989898;
+}
+.function input {
+	border: 0;
+	margin-top: 15px;
+	width: 125px;
+	height: 30px;
+	font-size: 20px;
+	font-weight: 700;
+	color: white;
+	background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+	border-radius: 15px;
+}
+.function button {
+	border: 0;
+	margin-top: 15px;
+	width: 125px;
+	height: 30px;
+	font-size: 20px;
+	font-weight: 700;
+	color: white;
+	background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+	border-radius: 15px;
+}
